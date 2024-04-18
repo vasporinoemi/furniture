@@ -973,6 +973,7 @@ html {
 
   .landing {
     height: 100vh;
+    margin-bottom: 30rem;
   }
 
   .banner-heading {
@@ -994,13 +995,12 @@ html {
   }
 
   .products {
-    margin-bottom: 60rem;
+    margin-bottom: 70rem;
   }
 
   .pricing-top {
     flex-direction: column;
     margin-bottom: 30rem;
-    /*  align-items: center; */
   }
 
   .pricing-top-content {
