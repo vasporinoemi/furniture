@@ -948,8 +948,11 @@ html {
 }
 
 @media (max-width: 450px) {
+}
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
   html {
-    font-size: 32%;
+    font-size: 28%;
   }
 
   .logo span {
@@ -978,7 +981,11 @@ html {
   }
 
   .content-right input {
-    width: 25rem;
+    width: 20rem;
+  }
+
+  .blog img {
+    width: 90%;
   }
 }
 /* End of Responsive */
