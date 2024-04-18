@@ -971,6 +971,10 @@ html {
     display: none;
   }
 
+  .landing {
+    height: 100vh;
+  }
+
   .banner-heading {
     width: 80%;
     right: 3rem;
@@ -995,7 +999,12 @@ html {
 
   .pricing-top {
     flex-direction: column;
-    align-items: center;
+    margin-bottom: 30rem;
+    /*  align-items: center; */
+  }
+
+  .pricing-top-content {
+    text-align: center;
   }
 
   .pricing-top img {
@@ -1003,6 +1012,7 @@ html {
     margin-bottom: 10rem;
     margin-right: 0;
     margin-top: 20rem;
+    text-align: center;
   }
 
   .pricing-top h1 {
@@ -1017,6 +1027,7 @@ html {
   .blog-articles {
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   .blog-top {
@@ -1033,12 +1044,18 @@ html {
     height: 7rem;
   }
 
+  .contact-content {
+    height: 10rem;
+  }
+
   .content-left {
     width: 25rem;
+    padding: 1.5rem;
   }
 
   .content-left h2 {
     font-size: 1.8rem;
+    text-align: center;
   }
 
   .content-left span {
@@ -1050,7 +1067,8 @@ html {
   }
 
   .content-right input {
-    width: 15rem;
+    width: 13rem;
+    align-items: center;
   }
 
   .content-right button {
