@@ -972,7 +972,7 @@ html {
   }
 
   .landing {
-    height: 100vh;
+    height: 80vh;
     margin-bottom: 10rem;
   }
 
@@ -1002,6 +1002,10 @@ html {
     margin-top: 40rem;
   }
 
+  .products-top h1 {
+    margin-top: 2rem;
+  }
+
   .pricing-top {
     flex-direction: column;
     margin-bottom: 30rem;
@@ -1016,7 +1020,7 @@ html {
     width: 25rem;
     margin-bottom: 10rem;
     margin-right: 0;
-    margin-top: 20rem;
+    margin-top: 40rem;
     text-align: center;
   }
 
