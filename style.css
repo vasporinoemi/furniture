@@ -995,7 +995,7 @@ html {
   }
 
   .products {
-    margin-bottom: 80rem;
+    margin-bottom: 40rem;
   }
 
   .products-top {
@@ -1005,6 +1005,7 @@ html {
   .pricing-top {
     flex-direction: column;
     margin-bottom: 30rem;
+    margin-top: 30rem;
   }
 
   .pricing-top-content {
