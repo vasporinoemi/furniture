@@ -952,7 +952,7 @@ html {
 
 @media screen and (min-width: 250px) and (max-width: 450px) {
   html {
-    font-size: 28%;
+    font-size: 32%;
   }
 
   .logo span {
@@ -971,8 +971,26 @@ html {
     display: none;
   }
 
+  .banner-heading {
+    width: 80%;
+    right: 3rem;
+    text-align: center;
+  }
+
+  .banner-btn {
+    width: 15rem;
+  }
+
+  .banner-btn-1 {
+    right: 18rem;
+  }
+
+  .banner-btn-2 {
+    right: 2rem;
+  }
+
   .products {
-    height: 80vh;
+    margin-bottom: 60rem;
   }
 
   .pricing-top {
@@ -1001,6 +1019,20 @@ html {
     align-items: center;
   }
 
+  .blog-top {
+    flex-direction: column;
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  .blog img {
+    display: none;
+  }
+
+  .article {
+    height: 7rem;
+  }
+
   .content-left {
     width: 25rem;
   }
@@ -1013,12 +1045,21 @@ html {
     font-size: 2rem;
   }
 
-  .content-right input {
-    width: 10rem;
+  .content-right {
+    flex-direction: column;
   }
 
-  .blog img {
-    width: 90%;
+  .content-right input {
+    width: 15rem;
+  }
+
+  .content-right button {
+    width: 9rem;
+    margin-top: 1rem;
+  }
+
+  .footer h1 {
+    display: none;
   }
 }
 /* End of Responsive */
