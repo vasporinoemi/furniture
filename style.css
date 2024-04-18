@@ -998,6 +998,10 @@ html {
     margin-bottom: 70rem;
   }
 
+  .products-top {
+    margin-top: 40rem;
+  }
+
   .pricing-top {
     flex-direction: column;
     margin-bottom: 30rem;
