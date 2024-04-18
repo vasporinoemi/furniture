@@ -950,7 +950,7 @@ html {
 @media (max-width: 450px) {
 }
 
-@media screen and (min-width: 320px) and (max-width: 450px) {
+@media screen and (min-width: 250px) and (max-width: 450px) {
   html {
     font-size: 28%;
   }
@@ -959,16 +959,49 @@ html {
     display: none;
   }
 
+  .search-bar input {
+    display: none;
+  }
+
+  .nav-list div {
+    width: 7rem;
+  }
+
+  .nav-list span {
+    display: none;
+  }
+
   .products {
     height: 80vh;
   }
 
+  .pricing-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .pricing-top img {
     width: 25rem;
+    margin-bottom: 10rem;
+    margin-right: 0;
+    margin-top: 20rem;
   }
 
   .pricing-top h1 {
     font-size: 3.5rem;
+    width: 25rem;
+  }
+
+  .blog {
+    width: 100%;
+  }
+
+  .blog-articles {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-left {
     width: 25rem;
   }
 
@@ -981,7 +1014,7 @@ html {
   }
 
   .content-right input {
-    width: 20rem;
+    width: 10rem;
   }
 
   .blog img {
